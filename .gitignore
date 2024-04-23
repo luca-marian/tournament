@@ -16,4 +16,23 @@ data/
 #MacOS
 .DS_Store
 
+# ignore every data folder in the project
+**/data/# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+# .vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+data/
+
+#MacOS
+.DS_Store
+
 alex/embeddings/
